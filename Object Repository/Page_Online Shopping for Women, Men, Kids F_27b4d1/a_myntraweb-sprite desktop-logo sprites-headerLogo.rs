@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_myntraweb-sprite desktop-logo sprites-headerLogo</name>
+   <tag></tag>
+   <elementGuidId>a072a2fe-c9b8-4aa7-a3dc-ab50cf2efe59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.myntraweb-sprite.desktop-logo.sprites-headerLogo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='desktop-header-cnt']/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4e564b0d-c3e4-412c-9997-f4fa9a60181d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>dd5a5f66-d2d5-4866-b2ae-ac0fce0587c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>myntraweb-sprite desktop-logo sprites-headerLogo</value>
+      <webElementGuid>83131af3-fb1f-4014-af2f-07d9c1b3f971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>3dcbb842-0086-4e35-8eac-8d88e427b938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;desktop-header-cnt&quot;)/div[@class=&quot;desktop-bound&quot;]/div[@class=&quot;desktop-logoContainer&quot;]/a[@class=&quot;myntraweb-sprite desktop-logo sprites-headerLogo&quot;]</value>
+      <webElementGuid>0c55427a-a745-4715-9516-2acb65d7a6e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='desktop-header-cnt']/div[2]/div/a</value>
+      <webElementGuid>457c8f5a-c701-4c3c-a4d3-59f96d48f4cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[5]</value>
+      <webElementGuid>b9dd3804-97b0-4be6-96a5-329c6f6c1616</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>f783668f-ab14-4c0b-b028-47dd21daa0a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/']</value>
+      <webElementGuid>c184b3d0-97fc-4131-8aa1-83551379eb09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
