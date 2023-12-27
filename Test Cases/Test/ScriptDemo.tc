@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScriptDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae1bc8a3-6064-4756-9c61-161f42689b05</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3341c033-1fef-410d-a6a4-d5557c5ea9a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>3341c033-1fef-410d-a6a4-d5557c5ea9a3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

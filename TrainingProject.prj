@@ -4,6 +4,7 @@
    <name>TrainingProject</name>
    <tag></tag>
    <UUID>abcb5342-c244-4599-ac2e-fc01c848ff61</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>D:\Katalon\TrainingProject\TrainingProject.prj</projectFileLocation>
