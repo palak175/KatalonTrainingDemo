@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Learn more</name>
+   <tag></tag>
+   <elementGuidId>84a14c80-2186-4ec1-b561-43458c61c27b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn_green.btn_get_started.trackable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='item_1']/div[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>be65c927-a5a8-4e08-a7d7-0b2ceae9b708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn_green btn_get_started trackable</value>
+      <webElementGuid>9dd5ed21-779f-4b4d-b4a4-00f6083a38b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-name</name>
+      <type>Main</type>
+      <value>Get started Author Button Clicked</value>
+      <webElementGuid>51f76f50-3394-4bcb-a33a-ad0abab8efdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-category</name>
+      <type>Main</type>
+      <value>User acquisition</value>
+      <webElementGuid>13bddda4-5037-48ac-82fa-9320b04a759b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-label</name>
+      <type>Main</type>
+      <value>New Platfrom Home Page Sep 2022</value>
+      <webElementGuid>e84e5ca7-18fd-4faf-8a6c-f34cec56ce02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/katalon-studio</value>
+      <webElementGuid>96adc43c-470f-43e0-8979-2eace76f5fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Learn more</value>
+      <webElementGuid>2b879cc1-4f79-4cba-b045-772e147d52dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;item_1&quot;)/div[@class=&quot;product_button&quot;]/a[@class=&quot;btn_green btn_get_started trackable&quot;]</value>
+      <webElementGuid>48a80bc1-c121-43c6-a663-15a8d06e9967</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='item_1']/div[3]/a</value>
+      <webElementGuid>85837e49-697d-426e-8411-55f0d4124ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Learn more')])[2]</value>
+      <webElementGuid>f6c1112d-8c89-4ae3-bbca-ddabb85e2ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/katalon-studio')])[4]</value>
+      <webElementGuid>c0769391-c747-40a2-8fc8-aced022e9eb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div[2]/div/div[3]/a</value>
+      <webElementGuid>f3969d75-2e96-4b56-a53f-b77df7db2ccf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/katalon-studio' and (text() = 'Learn more' or . = 'Learn more')]</value>
+      <webElementGuid>090f6cc3-5525-4fc3-af35-cad88ed0d03a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

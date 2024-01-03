@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteOne,,,,2023-11-22 15:33:32,2023-11-22 15:35:57,2m - 25.246s,FAILED
+,,,,,,,
+Test Cases/Test4_ScriptMode,,,,2023-11-22 15:34:40,2023-11-22 15:35:04,23.704s,FAILED
+"openBrowser("""")",,,,2023-11-22 15:34:40,2023-11-22 15:34:42,1.180s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",,,,2023-11-22 15:34:42,2023-11-22 15:35:04,22.256s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",,,,2023-11-22 15:35:04,2023-11-22 15:35:04,0.255s,FAILED
+,,,,,,,
+Test Cases/Test3_manual,,,,2023-11-22 15:35:55,2023-11-22 15:35:57,2.807s,FAILED
+"openBrowser("""")",,,,2023-11-22 15:35:55,2023-11-22 15:35:56,1.014s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",,,,2023-11-22 15:35:56,2023-11-22 15:35:56,0.647s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",,,,2023-11-22 15:35:56,2023-11-22 15:35:57,1.128s,FAILED

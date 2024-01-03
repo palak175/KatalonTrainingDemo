@@ -1,0 +1,12 @@
+8
+00:00:14,315 --> 00:00:14,317
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:14,317 --> 00:00:14,323
+5. println(testCaseContext.getTestCaseVariables())
+
+10
+00:00:14,324 --> 00:00:14,341
+9. if (inputyourconditionhere)
+

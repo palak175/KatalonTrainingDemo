@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteOne,,,,2023-12-19 17:32:52,2023-12-19 17:33:26,34.119s,FAILED
+,,,,,,,
+Test Cases/Test4_ScriptMode,,,,2023-12-19 17:33:07,2023-12-19 17:33:11,3.584s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-12-19 17:33:07,2023-12-19 17:33:07,0.009s,ERROR
+Start listener action : beforeTestCase,,,,2023-12-19 17:33:07,2023-12-19 17:33:07,0.001s,PASSED
+"openBrowser("""")",,,,2023-12-19 17:33:07,2023-12-19 17:33:09,1.502s,FAILED
+Start listener action : afterTestCase,,,,2023-12-19 17:33:09,2023-12-19 17:33:09,0.002s,PASSED
+Video,,,,2023-12-19 17:33:11,2023-12-19 17:33:11,0.000s,PASSED
+,,,,,,,
+Test Cases/Test3_manual,,,,2023-12-19 17:33:23,2023-12-19 17:33:26,3.049s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-12-19 17:33:23,2023-12-19 17:33:23,0.006s,ERROR
+Start listener action : beforeTestCase,,,,2023-12-19 17:33:23,2023-12-19 17:33:23,0.001s,PASSED
+"openBrowser("""")",,,,2023-12-19 17:33:23,2023-12-19 17:33:24,1.002s,FAILED
+Start listener action : afterTestCase,,,,2023-12-19 17:33:24,2023-12-19 17:33:24,0.002s,PASSED
+Video,,,,2023-12-19 17:33:26,2023-12-19 17:33:26,0.001s,PASSED

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. println(" 
+ I am inside Tc teardown")
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "Admin")
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), PWD)
+
+6
+00:00:00,000 --> 00:00:00,000
+1. println("
+ I am inside aftertest")
+
+7
+00:00:00,000 --> 00:00:00,000
+1. println("I am inside afterTestcase")
+
+8
+00:00:00,000 --> 00:00:00,000
+1. println(" 
+ I am insid suit teardown")
+
+9
+00:00:00,000 --> 00:00:00,000
+1. println("
+ I am inside aftertestsuit")
+

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,2023-12-19 12:55:23,2023-12-19 12:55:34,11.040s,FAILED
+,,,,,,,
+Test Cases/Login,,,,2023-12-19 12:55:28,2023-12-19 12:55:29,0.983s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-12-19 12:55:29,2023-12-19 12:55:29,0.005s,ERROR
+Start listener action : beforeTestCase,,,,2023-12-19 12:55:29,2023-12-19 12:55:29,0.001s,PASSED
+"openBrowser("""")",,,,2023-12-19 12:55:29,2023-12-19 12:55:29,0.919s,FAILED
+Start listener action : afterTestCase,,,,2023-12-19 12:55:29,2023-12-19 12:55:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Test5_manual,,,,2023-12-19 12:55:33,2023-12-19 12:55:34,1.084s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-12-19 12:55:33,2023-12-19 12:55:33,0.004s,ERROR
+Start listener action : beforeTestCase,,,,2023-12-19 12:55:33,2023-12-19 12:55:33,0.001s,PASSED
+"openBrowser("""")",,,,2023-12-19 12:55:33,2023-12-19 12:55:34,1.057s,FAILED
+Start listener action : afterTestCase,,,,2023-12-19 12:55:34,2023-12-19 12:55:34,0.000s,PASSED

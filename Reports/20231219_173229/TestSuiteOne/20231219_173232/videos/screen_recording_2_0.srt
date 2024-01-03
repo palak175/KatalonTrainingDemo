@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,054
+1. println("I am inside before testcase ")
+
+2
+00:00:00,055 --> 00:00:02,391
+1. openBrowser("")
+
+3
+00:00:02,391 --> 00:00:02,392
+1. println("I am inside afterTestcase")
+
+4
+00:00:04,468 --> 00:00:04,468
+1. println(testCaseContext.getTestCaseId())
+
+5
+00:00:04,469 --> 00:00:04,469
+5. println(testCaseContext.getTestCaseVariables())
+
+6
+00:00:04,470 --> 00:00:04,473
+9. if (inputyourconditionhere)
+

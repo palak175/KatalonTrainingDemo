@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteOne,Chrome 119.0.0.0,,,2023-11-22 15:31:34,2023-11-22 15:32:34,59.499s,PASSED
+,,,,,,,
+Test Cases/Test4_ScriptMode,Chrome 119.0.0.0,,,2023-11-22 15:31:35,2023-11-22 15:32:03,28.003s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 15:31:35,2023-11-22 15:31:38,2.744s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-22 15:31:38,2023-11-22 15:31:57,19.098s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-22 15:31:57,2023-11-22 15:32:00,3.135s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 119.0.0.0,,,2023-11-22 15:32:00,2023-11-22 15:32:01,0.799s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 15:32:01,2023-11-22 15:32:01,0.388s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 15:32:01,2023-11-22 15:32:03,1.329s,PASSED
+,,,,,,,
+Test Cases/Test3_manual,Chrome 119.0.0.0,,,2023-11-22 15:32:03,2023-11-22 15:32:34,31.282s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 15:32:03,2023-11-22 15:32:04,0.868s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-22 15:32:04,2023-11-22 15:32:27,23.691s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-22 15:32:27,2023-11-22 15:32:29,1.944s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 119.0.0.0,,,2023-11-22 15:32:29,2023-11-22 15:32:30,0.707s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 15:32:30,2023-11-22 15:32:32,1.657s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-22 15:32:32,2023-11-22 15:32:34,2.050s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 15:32:34,2023-11-22 15:32:34,0.188s,PASSED

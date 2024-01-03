@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteOne,Chrome 119.0.0.0,,,2023-11-22 15:22:09,2023-11-22 15:23:03,54.048s,FAILED
+,,,,,,,
+Test Cases/Test1_Record,Chrome 119.0.0.0,,,2023-11-22 15:22:20,2023-11-22 15:22:28,8.128s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 15:22:20,2023-11-22 15:22:21,1.018s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-22 15:22:21,2023-11-22 15:22:26,4.840s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment (2)""))",Chrome 119.0.0.0,,,2023-11-22 15:22:26,2023-11-22 15:22:26,0.866s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_username (2)""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-22 15:22:26,2023-11-22 15:22:27,0.841s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_form-control (2)""), ""ThisIsNotAPassword"")",Chrome 119.0.0.0,,,2023-11-22 15:22:27,2023-11-22 15:22:28,0.478s,FAILED
+,,,,,,,
+Test Cases/Test4_ScriptMode,Chrome 119.0.0.0,,,2023-11-22 15:22:34,2023-11-22 15:23:03,28.418s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 15:22:34,2023-11-22 15:22:35,1.004s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-22 15:22:35,2023-11-22 15:22:58,22.145s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-22 15:22:58,2023-11-22 15:23:00,2.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 119.0.0.0,,,2023-11-22 15:23:00,2023-11-22 15:23:01,0.768s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 15:23:01,2023-11-22 15:23:02,1.682s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 15:23:02,2023-11-22 15:23:03,0.315s,PASSED

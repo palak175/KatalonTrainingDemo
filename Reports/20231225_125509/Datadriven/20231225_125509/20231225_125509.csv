@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Datadriven,Chrome 120.0.0.0,,,25-12-2023 12:55:17,25-12-2023 12:55:29,11.310s,FAILED
+,,,,,,,
+Test Cases/Test/DatadrivenTesting,Chrome 120.0.0.0,,,25-12-2023 12:55:18,25-12-2023 12:55:24,6.034s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:18,25-12-2023 12:55:18,0.099s,ERROR
+Start listener action : beforeTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:18,25-12-2023 12:55:18,0.017s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-12-2023 12:55:19,25-12-2023 12:55:21,2.350s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,25-12-2023 12:55:21,25-12-2023 12:55:24,3.045s,PASSED
+acceptAlert(),Chrome 120.0.0.0,,,25-12-2023 12:55:24,25-12-2023 12:55:24,0.251s,FAILED
+Start listener action : afterTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:24,25-12-2023 12:55:24,0.003s,PASSED
+,,,,,,,
+Test Cases/Test/DatadrivenTesting,Chrome 120.0.0.0,,,25-12-2023 12:55:24,25-12-2023 12:55:29,4.511s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:24,25-12-2023 12:55:24,0.083s,ERROR
+Start listener action : beforeTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:24,25-12-2023 12:55:24,0.001s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-12-2023 12:55:25,25-12-2023 12:55:26,1.298s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,25-12-2023 12:55:26,25-12-2023 12:55:27,0.626s,PASSED
+acceptAlert(),Chrome 120.0.0.0,,,25-12-2023 12:55:27,25-12-2023 12:55:29,2.225s,FAILED
+Start listener action : afterTestCase,Chrome 120.0.0.0,,,25-12-2023 12:55:29,25-12-2023 12:55:29,0.001s,PASSED

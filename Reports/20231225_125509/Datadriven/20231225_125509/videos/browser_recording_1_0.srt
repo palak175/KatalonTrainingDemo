@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. acceptAlert()
+
+4
+00:00:00,000 --> 00:00:00,000
+1. println("I am inside afterTestcase")
+
+5
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+6
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+7
+00:00:00,000 --> 00:00:00,000
+9. if (inputyourconditionhere)
+

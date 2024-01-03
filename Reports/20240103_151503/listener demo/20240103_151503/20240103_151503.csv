@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+listener demo,Chrome 120.0.0.0,,,03-01-2024 15:15:09,03-01-2024 15:15:18,8.552s,FAILED
+,,,,,,,
+Test Cases/Test4_ScriptMode,Chrome 120.0.0.0,,,03-01-2024 15:15:09,03-01-2024 15:15:18,8.129s,FAILED
+Start listener action : beforeTest,Chrome 120.0.0.0,,,03-01-2024 15:15:09,03-01-2024 15:15:09,0.008s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,03-01-2024 15:15:09,03-01-2024 15:15:10,0.065s,ERROR
+Start listener action : beforeTestCase,Chrome 120.0.0.0,,,03-01-2024 15:15:10,03-01-2024 15:15:10,0.009s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 15:15:10,03-01-2024 15:15:12,2.502s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,03-01-2024 15:15:12,03-01-2024 15:15:16,3.618s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 120.0.0.0,,,03-01-2024 15:15:16,03-01-2024 15:15:17,1.362s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), PWD)",Chrome 120.0.0.0,,,03-01-2024 15:15:17,03-01-2024 15:15:18,0.335s,FAILED
+Start listener action : aftreTest,Chrome 120.0.0.0,,,03-01-2024 15:15:18,03-01-2024 15:15:18,0.007s,PASSED
+Start listener action : afterTestCase,Chrome 120.0.0.0,,,03-01-2024 15:15:18,03-01-2024 15:15:18,0.005s,PASSED

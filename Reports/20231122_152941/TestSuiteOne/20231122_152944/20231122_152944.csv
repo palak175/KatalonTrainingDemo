@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteOne,,,,2023-11-22 15:29:57,2023-11-22 15:30:00,3.252s,FAILED
+,,,,,,,
+Test Cases/Test4_ScriptMode,,,,2023-11-22 15:29:59,2023-11-22 15:30:00,0.094s,FAILED
+"openBrowser("""")",,,,2023-11-22 15:30:00,2023-11-22 15:30:00,0.072s,FAILED
+,,,,,,,
+Test Cases/Test3_manual,,,,2023-11-22 15:30:00,2023-11-22 15:30:00,0.078s,FAILED
+"openBrowser("""")",,,,2023-11-22 15:30:00,2023-11-22 15:30:00,0.045s,FAILED
