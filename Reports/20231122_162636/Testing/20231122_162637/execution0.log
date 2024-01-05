@@ -8984,9 +8984,8 @@ Session ID: c15aa83957a35925a7c8b052ed86a991
   <escapedJava>false</escapedJava>
   <property name="dbServerInfo">MySQL 5.5.62-0ubuntu0.14.04.1</property>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2023-12-27T07:01:27.546869800Z</date>
   <millis>1703660487546</millis>

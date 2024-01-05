@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="62.212" tests="3" failures="0" errors="0">
+   <testsuite name="Test" tests="3" failures="0" errors="0" time="62.212" skipped="0" timestamp="04-01-2024T18:03:54" hostname="Suhagi - 192.168.1.124" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="D:\\Katalon\\TrainingProject\\Reports\\20240104_180338\\Test\\20240104_180340"/>
+         <property name="logFiles" value="D:\\Katalon\\TrainingProject\\Reports\\20240104_180338\\Test\\20240104_180340\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Suhagi - 192.168.1.124"/>
+         <property name="remoteDriverUrl" value="https://palak_V2g45J:1pw9qzUpy3s7XTz9jAsi@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;120.0.6099.62 (93ab19d804d479b507c4694305631dfb65f8e930-refs/branch-heads/6099_56@{#3})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\proxy\\scoped_dir13952_660753331&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:7693&quot;&#xa;  },&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;f5a6e42af8bd802da28599be586a2bf2cb86d2cd&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;120.0.6099.63&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.124"/>
+         <property name="sessionId" value="f5a6e42af8bd802da28599be586a2bf2cb86d2cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="15.99" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[04-01-2024T18:03:55 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - Start listener action : beforeTest: null
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - println(" 
+ I am inside beforetest"): null
+
+04-01-2024T18:03:55 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+04-01-2024T18:03:55 - [TEST_STEP][ERROR] - if (inputyourconditionhere): groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:03:55 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - println("I am inside before testcase "): null
+
+04-01-2024T18:03:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T18:03:56 - [MESSAGE][INFO] - User set preference: ['Browser', 'chrome']
+
+04-01-2024T18:03:56 - [MESSAGE][INFO] - User set preference: ['OS', '10']
+
+04-01-2024T18:03:56 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+04-01-2024T18:03:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T18:04:03 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+04-01-2024T18:04:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T18:04:03 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:03 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username (2)"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username (2)'
+
+04-01-2024T18:04:08 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username (2)'
+
+04-01-2024T18:04:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password (2)"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password (2)'
+
+04-01-2024T18:04:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password (2)'
+
+04-01-2024T18:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login (3)")): Object: 'Object Repository/Page_OrangeHRM/button_Login (3)' is clicked on
+
+04-01-2024T18:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login (3)' is clicked on
+
+04-01-2024T18:04:10 - [TEST_STEP][PASSED] - Start listener action : aftreTest: null
+
+04-01-2024T18:04:10 - [TEST_STEP][PASSED] - println("
+ I am inside aftertest"): null
+
+04-01-2024T18:04:10 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+04-01-2024T18:04:10 - [TEST_STEP][PASSED] - println("I am inside afterTestcase"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test5_manual" time="20.795" classname="Test Cases/Test5_manual" status="PASSED">
+         <system-out><![CDATA[04-01-2024T18:04:11 - [TEST_CASE][PASSED] - Test Cases/Test5_manual: Test Cases/Test5_manual
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - Start listener action : beforeTest: null
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - println(" 
+ I am inside beforetest"): null
+
+04-01-2024T18:04:11 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+04-01-2024T18:04:11 - [TEST_STEP][ERROR] - if (inputyourconditionhere): groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:11 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - println("I am inside before testcase "): null
+
+04-01-2024T18:04:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T18:04:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2024T18:04:12 - [MESSAGE][INFO] - User set preference: ['Browser', 'chrome']
+
+04-01-2024T18:04:12 - [MESSAGE][INFO] - User set preference: ['OS', '10']
+
+04-01-2024T18:04:12 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+04-01-2024T18:04:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T18:04:18 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+04-01-2024T18:04:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T18:04:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:21 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+04-01-2024T18:04:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+04-01-2024T18:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Password_password"), "Admin123"): Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+04-01-2024T18:04:23 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+04-01-2024T18:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+04-01-2024T18:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+04-01-2024T18:04:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-01-2024T18:04:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-01-2024T18:04:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2024T18:04:31 - [MESSAGE][PASSED] - Browser is closed
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - Start listener action : aftreTest: null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println("
+ I am inside aftertest"): null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println("I am inside afterTestcase"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test5_manual" time="24.897" classname="Test Cases/Test5_manual" status="PASSED">
+         <system-out><![CDATA[04-01-2024T18:04:31 - [TEST_CASE][PASSED] - Test Cases/Test5_manual: Test Cases/Test5_manual
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - Start listener action : beforeTest: null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println(" 
+ I am inside beforetest"): null
+
+04-01-2024T18:04:31 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+04-01-2024T18:04:31 - [TEST_STEP][ERROR] - if (inputyourconditionhere): groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:31 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: inputyourconditionhere for class: SkipTestCase
+	at SkipTestCase.sampleBeforeTestCase(SkipTestCase.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704371620098.run(TempTestSuite1704371620098.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - println("I am inside before testcase "): null
+
+04-01-2024T18:04:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2024T18:04:31 - [MESSAGE][INFO] - User set preference: ['Browser', 'chrome']
+
+04-01-2024T18:04:31 - [MESSAGE][INFO] - User set preference: ['OS', '10']
+
+04-01-2024T18:04:31 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+04-01-2024T18:04:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T18:04:38 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+04-01-2024T18:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2024T18:04:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:42 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+04-01-2024T18:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+04-01-2024T18:04:47 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+04-01-2024T18:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Password_password"), "Admin123"): Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+04-01-2024T18:04:48 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+04-01-2024T18:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+04-01-2024T18:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+04-01-2024T18:04:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-01-2024T18:04:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-01-2024T18:04:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2024T18:04:56 - [MESSAGE][PASSED] - Browser is closed
+
+04-01-2024T18:04:56 - [TEST_STEP][PASSED] - Start listener action : aftreTest: null
+
+04-01-2024T18:04:56 - [TEST_STEP][PASSED] - println("
+ I am inside aftertest"): null
+
+04-01-2024T18:04:56 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+04-01-2024T18:04:56 - [TEST_STEP][PASSED] - println("I am inside afterTestcase"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-01-2024T18:03:54 - [TEST_SUITE][PASSED] - Test: Test Cases/Test5_manual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

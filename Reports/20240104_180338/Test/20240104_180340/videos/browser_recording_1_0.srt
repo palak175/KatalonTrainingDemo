@@ -1,0 +1,46 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/Page_OrangeHRM/input_username (2)"), "Admin")
+
+4
+00:00:00,000 --> 00:00:00,000
+13. setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password (2)"), "hUKwJTbofgPU9eVlw/CnDQ==")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/Page_OrangeHRM/button_Login (3)"))
+
+6
+00:00:00,000 --> 00:00:00,000
+1. println("
+ I am inside aftertest")
+
+7
+00:00:00,000 --> 00:00:00,000
+1. println("I am inside afterTestcase")
+
+8
+00:00:00,000 --> 00:00:00,000
+1. println(" 
+ I am inside beforetest")
+
+9
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+10
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+11
+00:00:00,000 --> 00:00:00,000
+9. if (inputyourconditionhere)
+
