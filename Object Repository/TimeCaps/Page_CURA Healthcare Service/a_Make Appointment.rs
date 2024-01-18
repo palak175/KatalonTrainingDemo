@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_Make Appointment</name>
    <tag></tag>
-   <elementGuidId>320d9ab1-60fc-4896-a04a-59e659ad7f5d</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>6fce5ebc-b4c8-4920-ab14-012a995a216e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/web/index.php/auth/logout' and (text() = 'Logout' or . = 'Logout')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li[4]/a</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>//a[@id='btn-make-appointment']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(4) > a.oxd-userdropdown-link</value>
+         <value>#btn-make-appointment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,86 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a40ac359-b858-48ad-b80c-bf885e3d2748</webElementGuid>
+      <webElementGuid>f7d110cb-af14-4471-be8b-9eb91b62b697</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-make-appointment</value>
+      <webElementGuid>a8005f8a-732c-4fcf-b2c8-7f1041e85db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/web/index.php/auth/logout</value>
-      <webElementGuid>5c612564-7af0-4b1f-9e82-887f8a1b5d7f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>menuitem</value>
-      <webElementGuid>e6e5a86d-1b94-4d4f-b5f2-df5f5bfcf49c</webElementGuid>
+      <value>./profile.php#login</value>
+      <webElementGuid>6e8ac038-57f0-4ae2-8b47-797879e3917a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-userdropdown-link</value>
-      <webElementGuid>1b99eb24-cd53-41cc-a374-a1e4ddee06ae</webElementGuid>
+      <value>btn btn-dark btn-lg</value>
+      <webElementGuid>8625a0c1-eb26-4448-846b-56b3eb6788a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>5173488d-1f73-4894-888e-f4e3390bf2f4</webElementGuid>
+      <value>Make Appointment</value>
+      <webElementGuid>5c15c5b2-bfb9-4528-823c-66835be6cf6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-userarea&quot;]/ul[1]/li[@class=&quot;--active oxd-userdropdown&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/li[4]/a[@class=&quot;oxd-userdropdown-link&quot;]</value>
-      <webElementGuid>0bdc934a-1752-4500-9f3a-d1f4fe538b99</webElementGuid>
+      <value>id(&quot;btn-make-appointment&quot;)</value>
+      <webElementGuid>2167811a-3b31-4ddb-b9a3-96c780bedde2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='btn-make-appointment']</value>
+      <webElementGuid>3ebfe96e-3ca1-4b06-ae0e-4b98338ffb07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li[4]/a</value>
-      <webElementGuid>5048a22b-a072-46dd-8cbb-981a192545b1</webElementGuid>
+      <value>//header[@id='top']/div/a</value>
+      <webElementGuid>4eb36e9e-c74b-43b6-97ab-525200de0979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Logout')]</value>
-      <webElementGuid>286556af-9bac-477d-a526-1471e7f1d0fa</webElementGuid>
+      <value>//a[contains(text(),'Make Appointment')]</value>
+      <webElementGuid>53d54755-7ace-48d0-abcb-aae0ce120c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/web/index.php/auth/logout')]</value>
-      <webElementGuid>4e6bd9ae-61e6-4bfe-a726-a6cbfb67d394</webElementGuid>
+      <value>//a[contains(@href, './profile.php#login')]</value>
+      <webElementGuid>e82652cd-e9ff-47c3-b436-3ad1ecc9319d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/ul/li[4]/a</value>
-      <webElementGuid>59e4206e-7f06-4f08-9d14-359204d495df</webElementGuid>
+      <value>//div/a</value>
+      <webElementGuid>017808fe-e172-4b16-a580-a4a6398abd0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/web/index.php/auth/logout' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>c5584c49-fccd-472a-8b79-60f1f6a58ab3</webElementGuid>
+      <value>//a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]</value>
+      <webElementGuid>e7db333a-9d68-4a7a-949e-19b035d28ca1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
